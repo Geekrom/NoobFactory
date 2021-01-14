@@ -9,7 +9,7 @@ public class SwitchExamples
       rand.setSeed(System.currentTimeMillis());
       randNum0 = rand.nextInt(10) ;
       String letter = "";
-      //System.out.println(randNum0);
+      System.out.println("Inside main");
 
       switch(randNum0){
         case 0:
