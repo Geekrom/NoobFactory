@@ -3,13 +3,20 @@ import java.util.*;
 public class SwitchExamples
 {
   public static void main(String[] args){
-      int randNum0 = 0, randNum1 = 55;
-      
-      Random rand = new Random();
-      rand.setSeed(System.currentTimeMillis());
-      randNum0 = rand.nextInt(10) ;
+         int randNum0 = 0, randNum1 = 55;
+     switchInput();  
+     
+     
+    
+    
+    }
+    static void switchInput(){
+        int randNum0 = 0;
+         Random  rand = new Random();
+         rand.setSeed(System.currentTimeMillis());
+     randNum0 = rand.nextInt(10) ;
       String letter = "";
-      //System.out.println(randNum0);
+      System.out.println("Inside of the switchInput method");
       
       switch(randNum0){
         case 0:
@@ -38,5 +45,9 @@ public class SwitchExamples
         }
     
     
+    
     }
-}
+    
+    
+    }
+
